@@ -51,7 +51,7 @@ st.markdown("""
 
 # --- SESSION STATE INITIALIZATION ---
 if 'file_path' not in st.session_state:
-    st.session_state.file_path = "c:/Users/thitinan/Downloads/แข่ง/อบโอ่ง/1_crash_reports.csv"
+    st.session_state.file_path = "1_crash_reports.csv"
 if 'cleaning_log' not in st.session_state:
     st.session_state.cleaning_log = []
 if 'df_cleaned' not in st.session_state:
